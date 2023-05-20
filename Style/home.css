@@ -1,0 +1,38 @@
+.grid{
+    list-style: none;
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 42px auto;
+    max-width: 1120px;
+    width: 100vw;
+    height: 80vh;
+}
+
+
+.grid a {
+    display: grid;
+
+    margin-bottom: 24px;
+    border-radius: 14px;
+
+    background: rgba(9, 9, 9);
+    color: rgba(255, 255, 255, 0.8);
+
+    text-align: center;
+    padding: 28px 18px 28px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+    transition: background 0.3s;
+}
+
+.btn:hover{
+    background: #e34f26;
+    color: rgba(9, 11, 10, 0.5);
+}
+
