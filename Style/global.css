@@ -32,12 +32,22 @@ header{
     
 }
 
-.container{  
+.navigation{  
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     padding: auto;
+}
+
+.navigation{
+    gap: 24px;
+}
+
+.navigation a{
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    font-weight: 700;
 }
 
 .icon-html5{
@@ -56,6 +66,11 @@ header{
     border-width: 0;
 }
 
-@media (max-width: 768px){
-    
+.navigation .nv{
+    transition: color 0.2s;
+    position: relative;
+}
+
+.navigation .nv:hover{
+    color: #e34f26;
 }

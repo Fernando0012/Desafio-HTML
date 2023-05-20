@@ -39,10 +39,13 @@
 }
 .icon-whatsapp:before {
   content: "\ea93";
+  color: #25d366;
 }
 .icon-github:before {
   content: "\eab0";
+  color: #fbfeff;
 }
 .icon-linkedin:before {
   content: "\eac9";
+  color: #0077b5;
 }

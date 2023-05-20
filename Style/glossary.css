@@ -2,8 +2,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 32px;
-    height: 700px;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 100vw;
     color: hsla(0, 100%, 97%);
 }
 
@@ -13,10 +15,10 @@ main{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 32px;
 }
 
 .glossary{
-    margin-top: 10px;
     width: 350px;
     height: 630px;
 
@@ -52,6 +54,7 @@ main{
     color: hsl(9, 83%, 50%);
 
 }
+
 
 
 @media (max-width: 708px) {
