@@ -87,9 +87,15 @@ input#box{
 }
 
 @media (max-width: 508px){
+    .contact{
+        width: 100vw;
+        height: 100vh;
+    }
 
     .form{
         width: 300px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .form form{
             width: 300px;
@@ -100,11 +106,12 @@ input#box{
     }
 
 @media (max-width: 768px){
+  
 
-.form form{
-        width: 380px;
-        height: 400px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+    .form form{
+            width: 380px;
+            height: 400px;
+            margin-right: auto;
+            margin-left: auto;
+        }
 }
