@@ -91,7 +91,7 @@ footer .icon:hover{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 425px){
     .post article,
     #about article{
     margin-top: 12px;
